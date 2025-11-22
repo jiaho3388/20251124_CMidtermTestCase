@@ -1,7 +1,7 @@
 # C 語言期中練習題 - 測資總整理 (標準化格式)
 
 這份文件已針對自動化爬蟲優化，所有題目均採用標準表格格式。
-**注意**：若 Output 包含 `\n`，請在程式中轉換為實際換行符號。
+**注意**：若 Output 包含 ``<br>``，請在程式中轉換為實際換行符號。
 
 ---
 
@@ -38,16 +38,16 @@
 
 | No. | Input | Output |
 | :--- | :--- | :--- |
-| 1 | `1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5` | `Row totals: 5 10 15 20 25\nColumn totals: 15 15 15 15 15` |
-| 2 | `1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1` | `Row totals: 1 1 1 1 1\nColumn totals: 1 1 1 1 1` |
-| 3 | `10 5 8 2 1 3 3 3 3 3 9 1 1 1 1 0 5 5 5 0 2 2 2 2 2` | `Row totals: 26 15 13 15 10\nColumn totals: 24 16 19 13 7` |
-| 4 | `5 5 5 5 5 4 4 4 4 4 3 3 3 3 3 2 2 2 2 2 1 1 1 1 1` | `Row totals: 25 20 15 10 5\nColumn totals: 15 15 15 15 15` |
-| 5 | `0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0` | `Row totals: 0 0 0 0 0\nColumn totals: 0 0 0 0 0` |
-| 6 | `1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5` | `Row totals: 15 15 15 15 15\nColumn totals: 5 10 15 20 25` |
-| 7 | `9 1 1 1 1 1 9 1 1 1 1 1 9 1 1 1 1 1 9 1 1 1 1 1 9` | `Row totals: 13 13 13 13 13\nColumn totals: 13 13 13 13 13` |
-| 8 | `2 4 6 8 10 1 3 5 7 9 2 4 6 8 10 1 3 5 7 9 2 4 6 8 10` | `Row totals: 30 25 30 25 30\nColumn totals: 8 18 28 38 48` |
-| 9 | `10 10 10 10 10 20 20 20 20 20 5 5 5 5 5 1 1 1 1 1 0 0 0 0 0` | `Row totals: 50 100 25 5 0\nColumn totals: 36 36 36 36 36` |
-| 10 | `1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1` | `Row totals: 3 2 3 2 3\nColumn totals: 3 2 3 2 3` |
+| 1 | `1 1 1 1 1 2 2 2 2 2 3 3 3 3 3 4 4 4 4 4 5 5 5 5 5` | `Row totals: 5 10 15 20 25`<br>`Column totals: 15 15 15 15 15` |
+| 2 | `1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1` | `Row totals: 1 1 1 1 1`<br>`Column totals: 1 1 1 1 1` |
+| 3 | `10 5 8 2 1 3 3 3 3 3 9 1 1 1 1 0 5 5 5 0 2 2 2 2 2` | `Row totals: 26 15 13 15 10`<br>`Column totals: 24 16 19 13 7` |
+| 4 | `5 5 5 5 5 4 4 4 4 4 3 3 3 3 3 2 2 2 2 2 1 1 1 1 1` | `Row totals: 25 20 15 10 5`<br>`Column totals: 15 15 15 15 15` |
+| 5 | `0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0` | `Row totals: 0 0 0 0 0`<br>`Column totals: 0 0 0 0 0` |
+| 6 | `1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5 1 2 3 4 5` | `Row totals: 15 15 15 15 15`<br>`Column totals: 5 10 15 20 25` |
+| 7 | `9 1 1 1 1 1 9 1 1 1 1 1 9 1 1 1 1 1 9 1 1 1 1 1 9` | `Row totals: 13 13 13 13 13`<br>`Column totals: 13 13 13 13 13` |
+| 8 | `2 4 6 8 10 1 3 5 7 9 2 4 6 8 10 1 3 5 7 9 2 4 6 8 10` | `Row totals: 30 25 30 25 30`<br>`Column totals: 8 18 28 38 48` |
+| 9 | `10 10 10 10 10 20 20 20 20 20 5 5 5 5 5 1 1 1 1 1 0 0 0 0 0` | `Row totals: 50 100 25 5 0`<br>`Column totals: 36 36 36 36 36` |
+| 10 | `1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 1` | `Row totals: 3 2 3 2 3`<br>`Column totals: 3 2 3 2 3` |
 
 ---
 
@@ -114,26 +114,26 @@
 
 | No. | Input | Output |
 | :--- | :--- | :--- |
-| 1 | `listen\nsilent` | `The words are anagrams.` |
-| 2 | `triangle\nintegral` | `The words are anagrams.` |
-| 3 | `apple\npapel` | `The words are anagrams.` |
-| 4 | `hello\nworld` | `The words are not anagrams.` |
-| 5 | `rat\ncar` | `The words are not anagrams.` |
-| 6 | `evil\nvile` | `The words are anagrams.` |
-| 7 | `book\nkobo` | `The words are anagrams.` |
-| 8 | `test\nsett` | `The words are anagrams.` |
-| 9 | `abc\nabd` | `The words are not anagrams.` |
-| 10 | `dormitory\ndirtyroom` | `The words are anagrams.` |
-| 11 | `school\nhools` | `The words are not anagrams.` |
-| 12 | `astronomer\nmoonstarrer` | `The words are anagrams.` |
-| 13 | `a\na` | `The words are anagrams.` |
-| 14 | `a\nb` | `The words are not anagrams.` |
-| 15 | `aa\na` | `The words are not anagrams.` |
-| 16 | `cinema\niceman` | `The words are anagrams.` |
-| 17 | `binary\nbrainy` | `The words are anagrams.` |
-| 18 | `adobe\nabode` | `The words are anagrams.` |
-| 19 | `logic\nlogin` | `The words are not anagrams.` |
-| 20 | `coffee\ntoffee` | `The words are not anagrams.` |
+| 1 | `listen`<br>`silent` | `The words are anagrams.` |
+| 2 | `triangle`<br>`integral` | `The words are anagrams.` |
+| 3 | `apple`<br>`papel` | `The words are anagrams.` |
+| 4 | `hello`<br>`world` | `The words are not anagrams.` |
+| 5 | `rat`<br>`car` | `The words are not anagrams.` |
+| 6 | `evil`<br>`vile` | `The words are anagrams.` |
+| 7 | `book`<br>`kobo` | `The words are anagrams.` |
+| 8 | `test`<br>`sett` | `The words are anagrams.` |
+| 9 | `abc`<br>`abd` | `The words are not anagrams.` |
+| 10 | `dormitory`<br>`dirtyroom` | `The words are anagrams.` |
+| 11 | `school`<br>`hools` | `The words are not anagrams.` |
+| 12 | `astronomer`<br>`moonstarrer` | `The words are anagrams.` |
+| 13 | `a`<br>`a` | `The words are anagrams.` |
+| 14 | `a`<br>`b` | `The words are not anagrams.` |
+| 15 | `aa`<br>`a` | `The words are not anagrams.` |
+| 16 | `cinema`<br>`iceman` | `The words are anagrams.` |
+| 17 | `binary`<br>`brainy` | `The words are anagrams.` |
+| 18 | `adobe`<br>`abode` | `The words are anagrams.` |
+| 19 | `logic`<br>`login` | `The words are not anagrams.` |
+| 20 | `coffee`<br>`toffee` | `The words are not anagrams.` |
 
 ---
 
@@ -222,20 +222,20 @@
 ---
 
 ## #09: Square of Asterisks
-**格式**: `N` (Output 包含換行符號 `\n`)
+**格式**: `N` (Output 包含換行符號 ``<br>``)
 
 | No. | Input | Output |
 | :--- | :--- | :--- |
 | 1 | `1` | `*` |
-| 2 | `2` | `**\n**` |
-| 3 | `3` | `***\n***\n***` |
-| 4 | `4` | `****\n****\n****\n****` |
-| 5 | `5` | `*****\n*****\n*****\n*****\n*****` |
-| 6 | `6` | `******\n******\n******\n******\n******\n******` |
-| 7 | `7` | `*******\n*******\n*******\n*******\n*******\n*******\n*******` |
-| 8 | `8` | `********\n********\n********\n********\n********\n********\n********\n********` |
-| 9 | `9` | `*********\n*********\n*********\n*********\n*********\n*********\n*********\n*********\n*********` |
-| 10 | `10` | `**********\n**********\n**********\n**********\n**********\n**********\n**********\n**********\n**********\n**********` |
+| 2 | `2` | `**`<br>`**` |
+| 3 | `3` | `***`<br>`***`<br>`***` |
+| 4 | `4` | `****`<br>`****`<br>`****`<br>`****` |
+| 5 | `5` | `*****`<br>`*****`<br>`*****`<br>`*****`<br>`*****` |
+| 6 | `6` | `******`<br>`******`<br>`******`<br>`******`<br>`******`<br>`******` |
+| 7 | `7` | `*******`<br>`*******`<br>`*******`<br>`*******`<br>`*******`<br>`*******`<br>`*******` |
+| 8 | `8` | `********`<br>`********`<br>`********`<br>`********`<br>`********`<br>`********`<br>`********`<br>`********` |
+| 9 | `9` | `*********`<br>`*********`<br>`*********`<br>`*********`<br>`*********`<br>`*********`<br>`*********`<br>`*********`<br>`*********` |
+| 10 | `10` | `**********`<br>`**********`<br>`**********`<br>`**********`<br>`**********`<br>`**********`<br>`**********`<br>`**********`<br>`**********`<br>`**********` |
 
 ---
 
@@ -328,26 +328,26 @@
 
 | No. | Input | Output |
 | :--- | :--- | :--- |
-| 1 | `500 250 750 500` | `Too-low\nToo-high\nSuccess` |
-| 2 | `10 5 10` | `Too-low\nSuccess` |
+| 1 | `500 250 750 500` | `Too-low`<br>`Too-high`<br>`Success` |
+| 2 | `10 5 10` | `Too-low`<br>`Success` |
 | 3 | `1 1` | `Success` |
-| 4 | `1000 2000 900 1000` | `x\nToo-low\nSuccess` |
-| 5 | `50 100 25 50` | `Too-high\nToo-low\nSuccess` |
-| 6 | `777 500 800 777` | `Too-low\nToo-high\nSuccess` |
-| 7 | `123 100 120 123` | `Too-low\nToo-low\nSuccess` |
+| 4 | `1000 2000 900 1000` | `x`<br>`Too-low`<br>`Success` |
+| 5 | `50 100 25 50` | `Too-high`<br>`Too-low`<br>`Success` |
+| 6 | `777 500 800 777` | `Too-low`<br>`Too-high`<br>`Success` |
+| 7 | `123 100 120 123` | `Too-low`<br>`Too-low`<br>`Success` |
 | 8 | `999 1000 999` | `Success` |
-| 9 | `50 -50 50` | `x\nSuccess` |
-| 10 | `2 1 3 2` | `Too-low\nToo-high\nSuccess` |
-| 11 | `88 90 80 88` | `Too-high\nToo-low\nSuccess` |
-| 12 | `200 100 300 200` | `Too-low\nToo-high\nSuccess` |
-| 13 | `555 550 560 555` | `Too-low\nToo-high\nSuccess` |
-| 14 | `30 40 30` | `Too-high\nSuccess` |
-| 15 | `100 -1 100` | `x\nSuccess` |
-| 16 | `10 11 9 10` | `Too-high\nToo-low\nSuccess` |
-| 17 | `250 200 250` | `Too-low\nSuccess` |
-| 18 | `900 950 900` | `Too-high\nSuccess` |
-| 19 | `60 50 70 60` | `Too-low\nToo-high\nSuccess` |
-| 20 | `42 40 45 42` | `Too-low\nToo-high\nSuccess` |
+| 9 | `50 -50 50` | `x`<br>`Success` |
+| 10 | `2 1 3 2` | `Too-low`<br>`Too-high`<br>`Success` |
+| 11 | `88 90 80 88` | `Too-high`<br>`Too-low`<br>`Success` |
+| 12 | `200 100 300 200` | `Too-low`<br>`Too-high`<br>`Success` |
+| 13 | `555 550 560 555` | `Too-low`<br>`Too-high`<br>`Success` |
+| 14 | `30 40 30` | `Too-high`<br>`Success` |
+| 15 | `100 -1 100` | `x`<br>`Success` |
+| 16 | `10 11 9 10` | `Too-high`<br>`Too-low`<br>`Success` |
+| 17 | `250 200 250` | `Too-low`<br>`Success` |
+| 18 | `900 950 900` | `Too-high`<br>`Success` |
+| 19 | `60 50 70 60` | `Too-low`<br>`Too-high`<br>`Success` |
+| 20 | `42 40 45 42` | `Too-low`<br>`Too-high`<br>`Success` |
 
 ---
 
@@ -385,26 +385,26 @@
 
 | No. | Input | Output |
 | :--- | :--- | :--- |
-| 1 | `34 82 49 102 7 94 23 11 50 31` | `Largest: 102\nSmallest: 7` |
-| 2 | `1 2 3 4 5 6 7 8 9 10` | `Largest: 10\nSmallest: 1` |
-| 3 | `10 9 8 7 6 5 4 3 2 1` | `Largest: 10\nSmallest: 1` |
-| 4 | `0 0 0 0 0 0 0 0 0 0` | `Largest: 0\nSmallest: 0` |
-| 5 | `5 5 5 5 5 5 5 5 5 5` | `Largest: 5\nSmallest: 5` |
-| 6 | `-1 -2 -3 -4 -5 -6 -7 -8 -9 -10` | `Largest: -1\nSmallest: -10` |
-| 7 | `100 -100 50 -50 25 -25 10 -10 5 -5` | `Largest: 100\nSmallest: -100` |
-| 8 | `12 56 34 89 10 23 45 67 90 1` | `Largest: 90\nSmallest: 1` |
-| 9 | `99 2 45 101 3 8 77 66 55 44` | `Largest: 101\nSmallest: 2` |
-| 10 | `5 2 8 1 9 3 7 4 6 0` | `Largest: 9\nSmallest: 0` |
-| 11 | `1000 1 1 1 1 1 1 1 1 1` | `Largest: 1000\nSmallest: 1` |
-| 12 | `1 1 1 1 1 1 1 1 1 1000` | `Largest: 1000\nSmallest: 1` |
-| 13 | `-500 0 0 0 0 0 0 0 0 0` | `Largest: 0\nSmallest: -500` |
-| 14 | `0 0 0 0 0 0 0 0 0 -500` | `Largest: 0\nSmallest: -500` |
-| 15 | `10 20 30 40 50 10 20 30 40 50` | `Largest: 50\nSmallest: 10` |
-| 16 | `3 1 4 1 5 9 2 6 5 3` | `Largest: 9\nSmallest: 1` |
-| 17 | `999 -999 888 -888 777 -777 0 0 1 1` | `Largest: 999\nSmallest: -999` |
-| 18 | `1 2 3 4 5 5 4 3 2 1` | `Largest: 5\nSmallest: 1` |
-| 19 | `42 42 42 42 42 0 42 42 42 42` | `Largest: 42\nSmallest: 0` |
-| 20 | `0 0 0 0 0 99 0 0 0 0` | `Largest: 99\nSmallest: 0` |
+| 1 | `34 82 49 102 7 94 23 11 50 31` | `Largest: 102`<br>`Smallest: 7` |
+| 2 | `1 2 3 4 5 6 7 8 9 10` | `Largest: 10`<br>`Smallest: 1` |
+| 3 | `10 9 8 7 6 5 4 3 2 1` | `Largest: 10`<br>`Smallest: 1` |
+| 4 | `0 0 0 0 0 0 0 0 0 0` | `Largest: 0`<br>`Smallest: 0` |
+| 5 | `5 5 5 5 5 5 5 5 5 5` | `Largest: 5`<br>`Smallest: 5` |
+| 6 | `-1 -2 -3 -4 -5 -6 -7 -8 -9 -10` | `Largest: -1`<br>`Smallest: -10` |
+| 7 | `100 -100 50 -50 25 -25 10 -10 5 -5` | `Largest: 100`<br>`Smallest: -100` |
+| 8 | `12 56 34 89 10 23 45 67 90 1` | `Largest: 90`<br>`Smallest: 1` |
+| 9 | `99 2 45 101 3 8 77 66 55 44` | `Largest: 101`<br>`Smallest: 2` |
+| 10 | `5 2 8 1 9 3 7 4 6 0` | `Largest: 9`<br>`Smallest: 0` |
+| 11 | `1000 1 1 1 1 1 1 1 1 1` | `Largest: 1000`<br>`Smallest: 1` |
+| 12 | `1 1 1 1 1 1 1 1 1 1000` | `Largest: 1000`<br>`Smallest: 1` |
+| 13 | `-500 0 0 0 0 0 0 0 0 0` | `Largest: 0`<br>`Smallest: -500` |
+| 14 | `0 0 0 0 0 0 0 0 0 -500` | `Largest: 0`<br>`Smallest: -500` |
+| 15 | `10 20 30 40 50 10 20 30 40 50` | `Largest: 50`<br>`Smallest: 10` |
+| 16 | `3 1 4 1 5 9 2 6 5 3` | `Largest: 9`<br>`Smallest: 1` |
+| 17 | `999 -999 888 -888 777 -777 0 0 1 1` | `Largest: 999`<br>`Smallest: -999` |
+| 18 | `1 2 3 4 5 5 4 3 2 1` | `Largest: 5`<br>`Smallest: 1` |
+| 19 | `42 42 42 42 42 0 42 42 42 42` | `Largest: 42`<br>`Smallest: 0` |
+| 20 | `0 0 0 0 0 99 0 0 0 0` | `Largest: 99`<br>`Smallest: 0` |
 
 ---
 
