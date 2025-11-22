@@ -1,6 +1,6 @@
-# C 語言期末練習題 - 測資總整理
+# C 語言期中練習題 - 測資總整理
 
-這份文件包含了從 #01 到 #18 題的自動生成測資（排除無測資的題目）。
+這份文件包含了從 #01 到 #18 題的測資。
 每題均包含 10~20 組測試案例，方便除錯與驗證程式邏輯。
 
 ---
@@ -474,26 +474,26 @@
 
 | No. | Input Sequence | Output |
 | :--- | :--- | :--- |
-| 1 | `34 82 49 102 7 94 23 11 50 31` | `Largest: 102, Smallest: 7` |
-| 2 | `1 2 3 4 5 6 7 8 9 10` | `Largest: 10, Smallest: 1` |
-| 3 | `10 9 8 7 6 5 4 3 2 1` | `Largest: 10, Smallest: 1` |
-| 4 | `0 0 0 0 0 0 0 0 0 0` | `Largest: 0, Smallest: 0` |
-| 5 | `5 5 5 5 5 5 5 5 5 5` | `Largest: 5, Smallest: 5` |
-| 6 | `-1 -2 -3 -4 -5 -6 -7 -8 -9 -10` | `Largest: -1, Smallest: -10` |
-| 7 | `100 -100 50 -50 25 -25 10 -10 5 -5` | `Largest: 100, Smallest: -100` |
-| 8 | `12 56 34 89 10 23 45 67 90 1` | `Largest: 90, Smallest: 1` |
-| 9 | `99 2 45 101 3 8 77 66 55 44` | `Largest: 101, Smallest: 2` |
-| 10 | `5 2 8 1 9 3 7 4 6 0` | `Largest: 9, Smallest: 0` |
-| 11 | `1000 1 1 1 1 1 1 1 1 1` | `Largest: 1000, Smallest: 1` |
-| 12 | `1 1 1 1 1 1 1 1 1 1000` | `Largest: 1000, Smallest: 1` |
-| 13 | `-500 0 0 0 0 0 0 0 0 0` | `Largest: 0, Smallest: -500` |
-| 14 | `0 0 0 0 0 0 0 0 0 -500` | `Largest: 0, Smallest: -500` |
-| 15 | `10 20 30 40 50 10 20 30 40 50` | `Largest: 50, Smallest: 10` |
-| 16 | `3 1 4 1 5 9 2 6 5 3` | `Largest: 9, Smallest: 1` |
-| 17 | `999 -999 888 -888 777 -777 0 0 1 1` | `Largest: 999, Smallest: -999` |
-| 18 | `1 2 3 4 5 5 4 3 2 1` | `Largest: 5, Smallest: 1` |
-| 19 | `42 42 42 42 42 0 42 42 42 42` | `Largest: 42, Smallest: 0` |
-| 20 | `0 0 0 0 0 99 0 0 0 0` | `Largest: 99, Smallest: 0` |
+| 1 | `34 82 49 102 7 94 23 11 50 31` | `Largest: 102`<br>`Smallest: 7` |
+| 2 | `1 2 3 4 5 6 7 8 9 10` | `Largest: 10`<br>`Smallest: 1` |
+| 3 | `10 9 8 7 6 5 4 3 2 1` | `Largest: 10`<br>`Smallest: 1` |
+| 4 | `0 0 0 0 0 0 0 0 0 0` | `Largest: 0`<br>`Smallest: 0` |
+| 5 | `5 5 5 5 5 5 5 5 5 5` | `Largest: 5`<br>`Smallest: 5` |
+| 6 | `-1 -2 -3 -4 -5 -6 -7 -8 -9 -10` | `Largest: -1`<br>`Smallest: -10` |
+| 7 | `100 -100 50 -50 25 -25 10 -10 5 -5` | `Largest: 100`<br>`Smallest: -100` |
+| 8 | `12 56 34 89 10 23 45 67 90 1` | `Largest: 90`<br>`Smallest: 1` |
+| 9 | `99 2 45 101 3 8 77 66 55 44` | `Largest: 101`<br>`Smallest: 2` |
+| 10 | `5 2 8 1 9 3 7 4 6 0` | `Largest: 9`<br>`Smallest: 0` |
+| 11 | `1000 1 1 1 1 1 1 1 1 1` | `Largest: 1000`<br>`Smallest: 1` |
+| 12 | `1 1 1 1 1 1 1 1 1 1000` | `Largest: 1000`<br>`Smallest: 1` |
+| 13 | `-500 0 0 0 0 0 0 0 0 0` | `Largest: 0`<br>`Smallest: -500` |
+| 14 | `0 0 0 0 0 0 0 0 0 -500` | `Largest: 0`<br>`Smallest: -500` |
+| 15 | `10 20 30 40 50 10 20 30 40 50` | `Largest: 50`<br>`Smallest: 10` |
+| 16 | `3 1 4 1 5 9 2 6 5 3` | `Largest: 9`<br>`Smallest: 1` |
+| 17 | `999 -999 888 -888 777 -777 0 0 1 1` | `Largest: 999`<br>`Smallest: -999` |
+| 18 | `1 2 3 4 5 5 4 3 2 1` | `Largest: 5`<br>`Smallest: 1` |
+| 19 | `42 42 42 42 42 0 42 42 42 42` | `Largest: 42`<br>`Smallest: 0` |
+| 20 | `0 0 0 0 0 99 0 0 0 0` | `Largest: 99`<br>`Smallest: 0` |
 
 ---
 
